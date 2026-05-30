@@ -53,7 +53,19 @@
     "site/Zcash_Organizations/Zingo_Labs.md",
     "site/Zcash_Organizations/ZKAV.md",
     "site/Zcash_Organizations/ZODL.md",
-    "site/Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md"
+    "site/Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md",
+    "site/Start_Here/What_is_ZEC_and_Zcash.md",
+    "site/Start_Here/What_is_ZecHub.md",
+    "site/Start_Here/New_User_Guide.md",
+    "site/Start_Here/ZEC_Use_Cases.md",
+    "site/Using_Zcash/Transactions.md",
+    "site/Using_Zcash/Buying_ZEC.md",
+    "site/Using_Zcash/Memos.md",
+    "site/Zcash_Tech/Halo.md",
+    "site/Zcash_Tech/Post_Quantum_Security.md",
+    "site/Zcash_Tech/Zcash_Shielded_Assets.md",
+    "site/Zcash_Tech/Viewing_Keys.md",
+    "site/Zcash_Tech/FROST.md"
   ],
   "translationPrefix": "translations/it/"
 }
