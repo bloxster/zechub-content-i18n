@@ -44,7 +44,16 @@
     "site/Using_Zcash/Wallets.md",
     "site/Using_Zcash/Shielded_Pools.md",
     "site/Zcash_Community/Arborist_Calls.md",
-    "site/Zcash_Tech/zk_SNARKS.md"
+    "site/Zcash_Tech/zk_SNARKS.md",
+    "site/Zcash_Organizations/Electric_Coin_Company.md",
+    "site/Zcash_Organizations/Zcash_Foundation.md",
+    "site/Zcash_Organizations/Zcash_Community_Grants.md",
+    "site/Zcash_Organizations/Financial_Privacy_Foundation.md",
+    "site/Zcash_Organizations/Shielded_Labs.md",
+    "site/Zcash_Organizations/Zingo_Labs.md",
+    "site/Zcash_Organizations/ZKAV.md",
+    "site/Zcash_Organizations/ZODL.md",
+    "site/Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md"
   ],
   "translationPrefix": "translations/it/"
 }
