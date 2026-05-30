@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>ZecHub Wiki Translation and Privacy Pilot</title>
+    <style>
+      :root {
+        --bg: #f7f4ed;
+        --ink: #151515;
+        --muted: #5c5c5c;
+        --line: #d9d1c2;
+        --panel: #fffaf0;
+        --accent: #f4b728;
+        --accent-ink: #241800;
+        --ok: #176b4d;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0 72px;
+      }
+
+      header {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 34px;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 860px;
+        margin: 0;
+        font-size: clamp(38px, 7vw, 82px);
+        line-height: .98;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 760px;
+        margin: 24px 0 0;
+        color: #303030;
+        font-size: clamp(18px, 2.4vw, 24px);
+      }
+
+      .status {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1px;
+        margin: 34px 0 0;
+        border: 1px solid var(--line);
+        background: var(--line);
+      }
+
+      .status div {
+        min-height: 120px;
+        padding: 18px;
+        background: var(--panel);
+      }
+
+      .status strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 24px;
+      }
+
+      section {
+        padding: 42px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(26px, 3.5vw, 42px);
+        line-height: 1.05;
+      }
+
+      h3 {
+        margin: 0 0 10px;
+        font-size: 19px;
+      }
+
+      p { margin: 0 0 16px; }
+
+      ul, ol {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      li + li { margin-top: 8px; }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .panel {
+        padding: 20px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+      }
+
+      .tag {
+        display: inline-block;
+        margin: 0 8px 8px 0;
+        padding: 5px 9px;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .check {
+        color: var(--ok);
+        font-weight: 800;
+      }
+
+      details {
+        margin-top: 22px;
+        border: 1px solid var(--line);
+        background: #fff;
+      }
+
+      summary {
+        cursor: pointer;
+        padding: 16px 18px;
+        font-weight: 800;
+      }
+
+      details div {
+        padding: 0 18px 18px;
+      }
+
+      code {
+        padding: 2px 5px;
+        background: rgba(0,0,0,.08);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: .92em;
+      }
+
+      footer {
+        padding-top: 32px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 760px) {
+        main { width: min(100% - 24px, 1080px); padding-top: 34px; }
+        .status, .grid { grid-template-columns: 1fr; }
+        .status div { min-height: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">ZecHub Wiki grant work</p>
+        <h1>Static translation first. Privacy by default next.</h1>
+        <p class="lead">
+          Phase 1 replaces runtime machine translation with repository-controlled Italian content,
+          English fallback, protected Zcash terminology, and a reviewable contributor workflow.
+        </p>
+        <div class="status" aria-label="Project status">
+          <div><strong>1</strong>pilot locale: Italian</div>
+          <div><strong>4</strong>translated pilot pages</div>
+          <div><strong>0</strong>Google Translate runtime dependency</div>
+          <div><strong>CI</strong>protected-term validation</div>
+        </div>
+      </header>
+
+      <section>
+        <h2>What changed</h2>
+        <div class="grid">
+          <div class="panel">
+            <h3>Before</h3>
+            <p>
+              The live site depended on Google Translate for many localized reading flows.
+              That meant page content could be sent through third-party runtime translation,
+              and technical Zcash terms could be mistranslated.
+            </p>
+          </div>
+          <div class="panel">
+            <h3>Now</h3>
+            <p>
+              The pilot serves Italian content from a repository-controlled translation tree.
+              English remains the source of truth and is used as fallback when an Italian page
+              is not ready.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Delivered in the pilot</h2>
+        <ul>
+          <li><span class="check">✓</span> `next-intl` message boundary for English and Italian UI text.</li>
+          <li><span class="check">✓</span> Canonical English routes remain unprefixed, such as <code>/wallets</code>.</li>
+          <li><span class="check">✓</span> Italian routes use a locale prefix, such as <code>/it/wallets</code>.</li>
+          <li><span class="check">✓</span> <code>/en/...</code> redirects to canonical English routes.</li>
+          <li><span class="check">✓</span> Markdown lookup supports Italian translations with English fallback.</li>
+          <li><span class="check">✓</span> Google Translate scripts, widgets, cookies, and DOM translation behavior are removed from the pilot architecture.</li>
+          <li><span class="check">✓</span> Protected Zcash terminology is validated by script and GitHub Actions.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Pilot content</h2>
+        <p>The first Italian translation set focuses on high-value wiki pages:</p>
+        <p>
+          <span class="tag">Wallets</span>
+          <span class="tag">Shielded Pools</span>
+          <span class="tag">ZK-SNARKs</span>
+          <span class="tag">Arborist Calls</span>
+        </p>
+        <p>
+          Italian Markdown lives under the mirrored path
+          <code>translations/it/site/...</code>. This keeps translation work reviewable through
+          normal pull requests instead of hidden in browser-side machine translation.
+        </p>
+      </section>
+
+      <section>
+        <h2>Protected terminology</h2>
+        <p>
+          Terms such as <code>Zcash</code>, <code>ZEC</code>, <code>ZecHub</code>,
+          <code>Orchard</code>, <code>Sapling</code>, <code>FROST</code>,
+          <code>Unified Address</code>, and wallet/project names are kept stable.
+        </p>
+        <p>
+          The content repository includes <code>translation/protected-terms.json</code> and
+          <code>scripts/check-protected-terms.mjs</code>. The check fails when a protected term
+          present in the English pilot source is missing from the Italian translation.
+        </p>
+      </section>
+
+      <section>
+        <h2>What remains before publication</h2>
+        <ol>
+          <li>Italian-speaking editorial review of pilot translations and visible UI labels.</li>
+          <li>Final build and navigation QA for English canonical routes and Italian routes.</li>
+          <li>Upstream pull requests against the ZecHub application and content repositories.</li>
+          <li>Clear public credit for related prior architecture work from ZecHub contributors.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Second stream: privacy hardening</h2>
+        <p>
+          Translation privacy is only the first layer. A separate privacy stream should address
+          YouTube embeds, remote images and wallet icons, Google Maps, telemetry endpoints,
+          AI assistant disclosure, wallet likes, and strict browser security headers.
+        </p>
+        <p>
+          That work should be scoped separately so the translation deliverable can ship cleanly
+          without hiding a larger site-wide privacy audit inside the same milestone.
+        </p>
+      </section>
+
+      <details>
+        <summary>Italian summary / Sintesi italiana</summary>
+        <div lang="it">
+          <p>
+            Questo lavoro sostituisce la traduzione automatica a runtime con pagine italiane
+            mantenute nel repository. L'inglese resta la fonte canonica e viene usato come
+            fallback quando una traduzione italiana non e' ancora disponibile.
+          </p>
+          <p>
+            Il pilot include Wallets, Shielded Pools, ZK-SNARKs e Arborist Calls. I termini
+            tecnici di Zcash vengono protetti tramite una lista controllata e una validazione
+            automatica.
+          </p>
+          <p>
+            Il prossimo flusso di lavoro dovrebbe affrontare i problemi privacy piu' ampi:
+            video YouTube caricati automaticamente, immagini remote, icone wallet esterne,
+            Google Maps, telemetria, AI assistant e header di sicurezza.
+          </p>
+        </div>
+      </details>
+
+      <footer>
+        Prepared for ZecHub translation/privacy grant review. This page is intentionally static
+        and uses no remote fonts, scripts, images, analytics, or embedded media.
+      </footer>
+    </main>
+  </body>
+</html>

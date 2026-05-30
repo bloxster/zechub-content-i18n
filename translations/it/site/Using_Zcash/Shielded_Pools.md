@@ -8,8 +8,8 @@ Esamineremo le 4 [pool di valori](https://zcash.readthedocs.io/en/latest/rtd_pag
 ## In breve
 
 - Zcash comprende i pool **Sprout**, **Sapling**, **Orchard** e **Transparent**.
-- **Orchard** usa gli **Unified Address** ed e il pool **Shielded** attualmente consigliato.
-- **Sapling** e ancora supportato da molti wallet.
+- **Orchard** usa gli **Unified Address** ed è lo **Shielded pool** attualmente consigliato.
+- **Sapling** è ancora supportato da molti wallet.
 - Un indirizzo **Transparent** non offre privacy paragonabile a una transazione Shielded.
 - La privacy delle transazioni Shielded di Zcash si basa su **ZK-SNARKs**.
 
@@ -23,7 +23,7 @@ In questa traduzione i termini tecnici `Shielded`, `Transparent` e `Unified Addr
 
 Sprout è stato il primo protocollo di privacy Zero Knowledge su Zcash ed è talvolta chiamato Zcash 1.0 o "Zcash Ordinario". Il suo lancio è avvenuto il 28 ottobre 2016 ed è stata la prima versione di Zcash che utilizza la tecnologia a prova di conoscenza zero, importante caratteristica della crittografia di ZCash.
 
-Gli indirizzi Sprout sono identificati dalle prime due lettere, sempre "zc", e sono stati chiamati "Sprout" con l'obiettivo di enfatizzare che il software era un giovane blockchain in crescita con un grande potenziale di sviluppo, aperto a nuove implementazioni. La serie Sprout è stata utilizzata come strumento iniziale per [Mining a lento avvio di Zcash](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) which brought about the distribution of ZEC and Block rewards for Miners.
+Gli indirizzi Sprout sono identificati dalle prime due lettere, sempre "zc", e sono stati chiamati "Sprout" con l'obiettivo di enfatizzare che il software era una giovane blockchain in crescita con un grande potenziale di sviluppo, aperta a nuove implementazioni. La serie Sprout è stata utilizzata come strumento iniziale per il [mining a lento avvio di Zcash](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/), che ha contribuito alla distribuzione di ZEC e delle ricompense di blocco per i miner.
 
 Con l'espansione dell'ecosistema di Zcash e il crescente numero di transazioni schermate, è stato osservato che la Serie Sprout di Zcash diventava limitata e meno efficiente per quanto riguarda la privacy degli utenti, la scalabilità e l'elaborazione delle transazioni. Ciò ha portato alla modifica del network e all'aggiornamento Sapling.
 

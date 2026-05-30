@@ -6,11 +6,11 @@
 
 Gli Arborist Calls di Zcash sono incontri ricorrenti dedicati allo sviluppo del protocollo, alla pianificazione degli aggiornamenti di rete, all'implementazione dei nodi di consenso, alle dipendenze per wallet e infrastruttura e alla ricerca sul protocollo.
 
-La pagina ufficiale degli Arborist Calls e mantenuta dalla Zcash Foundation:
+La pagina ufficiale degli Arborist Calls è mantenuta dalla Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Nota:** nella settimana del 12 maggio 2026 non si e tenuto alcun Arborist Call. [Prossima call: 28 maggio](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
+> **Nota:** nella settimana del 12 maggio 2026 non si è tenuto alcun Arborist Call. [Prossima call: 28 maggio](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## Come partecipare
 
@@ -19,7 +19,7 @@ Le call alternano due fasce orarie ricorrenti per consentire la partecipazione d
 - Fascia oraria delle **15:00 UTC**
 - Fascia oraria delle **21:00 UTC**
 
-La pagina della Foundation e la fonte ufficiale per i link di registrazione, i file di calendario e l'accesso agli incontri, poiche i link possono cambiare.
+La pagina della Foundation è la fonte ufficiale per i link di registrazione, i file di calendario e l'accesso agli incontri, poiché i link possono cambiare.
 
 ## Note, ordini del giorno e registrazioni
 

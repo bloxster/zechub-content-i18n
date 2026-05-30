@@ -22,6 +22,11 @@ If a translated file is missing, the wiki application renders the English articl
 AI-assisted drafts are acceptable starting points, but they are not publication-ready until an Italian-speaking reviewer approves accuracy, tone, links, formatting, and protected terminology.
 The same terminology check runs automatically on pushes and pull requests that modify translated content, its source pages, or the terminology manifest.
 
+## Italian Review Notes
+
+- Pay close attention to `e` versus `è`: when it is the verb "is", use the grave-accented `è`.
+- Keep `e` unaccented only when it is the conjunction "and".
+
 ## Protected Terms
 
 The canonical validation list is `translation/protected-terms.json`. Terms listed in `preserveVerbatim` must remain unchanged wherever they occur in the English source. Proposed approved localizations must be discussed and added to the glossary before a translated page is merged.

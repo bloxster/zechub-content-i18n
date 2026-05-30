@@ -229,12 +229,14 @@
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](https://i.ibb.co/wcD52Kk/image-2024-...)
+![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Devices:
 - Operating System:
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
+
+---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
@@ -242,6 +244,8 @@
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
@@ -251,12 +255,16 @@
 - Pools: Transparent | Sapling | Orchard
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
 
+---
+
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](https://global.discourse-cdn.com/zcash/original/3X/3/b/3b88be907de788f367f7993bc24eed726d63a0c6.jpeg)
 - Devices: Web | Desktop
 - Operating System: Browser
 - Pools: Shielded | Transparent
 - Features: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
+
+---
 
 ## [Leodex Wallet](https://leodex.io/)
 ![logo](https://leodex.io/assets/logo.webp)
@@ -265,8 +273,6 @@
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Shielded | Transparent
 - Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
-
-
 
 
 

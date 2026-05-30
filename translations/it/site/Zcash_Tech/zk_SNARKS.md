@@ -2,9 +2,9 @@
 
 ## In breve
 
-- Le **ZK-SNARKs** consentono di dimostrare la validita di una transazione senza rivelarne mittente, destinatario o importo in **ZEC**.
+- Le **ZK-SNARKs** consentono di dimostrare la validità di una transazione senza rivelarne mittente, destinatario o importo in **ZEC**.
 - Zcash utilizza le ZK-SNARKs per le transazioni **Shielded**; il pool **Orchard** usa Halo 2 senza trusted setup.
-- Le transazioni **Transparent** restano pubblicamente osservabili e non offrono le stesse proprieta di privacy.
+- Le transazioni **Transparent** restano pubblicamente osservabili e non offrono le stesse proprietà di privacy.
 
 ## Cosa è una prova?
 
