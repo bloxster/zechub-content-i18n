@@ -18,7 +18,7 @@ Prover (o dimostratore) ---> Fa una dichiarazione ---> Verifier (o verificatore)
 
 In informatica il termine per dimostrazioni verificabili in modo efficiente è NP proofs. Queste brevi dimostrazioni possono essere verificate in tempo polinomiale. L'idea generale è "Esiste una soluzione per un teorema e viene passata al verifier per verificarla"
 
-![NP proofs](https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg  "Linguaggio NP")
+![NP proofs](https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551 "Linguaggio NP")
 
 
 In un linguaggio NP = devono valere due condizioni:
@@ -34,7 +34,7 @@ Solidità: le false affermazioni non avranno prove (per tutte le strategie di pr
 
 **Casualità**: le richieste del verifier di provare sono randomizzate e il prover deve essere in grado di rispondere correttamente a ciascuna.
 
-![IP proofs](https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg  "IP protocol")
+![IP proofs](https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10 "IP protocol")
 
 Usando l'interazione e la casualità insieme è possibile dimostrare una rivendicazione a un verifier cieco in tempo polinomiale probabilistico (PPT).
 
@@ -70,7 +70,7 @@ Vista reale: tutte le possibili storie di interazioni tra Prover e Verifier (P,V
 
 Vista simulata: il verifier simula tutte le possibili interazioni tra Prover e Verifier
 
-![simulation paradigm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg  "Simulation Paradigm")
+![simulation paradigm](https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e "Simulation Paradigm")
 
 Un distinguo polinomiale-temporale tenta di determinare se stanno guardando la vista reale o simulata e richiede ripetutamente un campione da entrambi.
 
@@ -98,7 +98,7 @@ Esempio: "3x² + 8x + 17"
 
 **Circuito Aritmetico**: Un modello per il calcolo di polinomi. Più generalmente, può essere definito come un grafo aciclico diretto sul quale ad ogni nodo del grafo grafo viene eseguita un'operazione aritmetica. Il circuito è costituito da porte di addizione, porte di moltiplicazione e alcune porte costanti. Allo stesso modo in cui i circuiti booleani trasportano bit in fili, i circuiti aritmetici trasportano interi.
 
-![circuit](https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg  "DAG")
+![circuit](https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f "DAG")
 
 In questo esempio, il Prover vuole convincere il Verifier che conosce una soluzione per il circuito aritmetico.
 
@@ -122,7 +122,7 @@ Polynomial Interactive Oracle: Il verifier chiede al prover (algoritmo) di aprir
 
 Le procedure di configurazione aiutano il verifier a riassumere un circuito e produrre parametri pubblici.
 
-![Setup](https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg  "Setup")
+![Setup](https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679 "Setup")
 
 **Tipi di configurazione di preelaborazione**:
 
@@ -161,7 +161,7 @@ Le zk-SNARK offrono diversi vantaggi in una varietà di applicazioni diverse. Ve
 
 Il vantaggio di un servizio Rollup basato su proof (zk-Rollup) consiste nel processare un batch di centinaia o migliaia di transazioni, e L1 è in grado di verificare una prova succinta che tutte le transazioni sono state elaborate correttamente, aumentando la scalabilità della rete di fattore 100 o 1000 rispetto a quella senza zk-Rollup.
 
-![zkvm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg  "ZKVM")
+![zkvm](https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f "ZKVM")
 
 **Interoperabilità**: Questa è ottenuta su uno zk-Bridge 'bloccando' gli asset su una catena di origine e dimostrando alla catena di destinazione che gli asset sono stati bloccati (proof of consensus).
 
