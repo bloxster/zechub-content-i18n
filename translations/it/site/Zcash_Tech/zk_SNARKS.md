@@ -2,9 +2,11 @@
 
 ## In breve
 
-- Le **ZK-SNARKs** consentono di dimostrare la validità di una transazione senza rivelarne mittente, destinatario o importo in **ZEC**.
-- Zcash utilizza le ZK-SNARKs per le transazioni **Shielded**; il pool **Orchard** usa Halo 2 senza trusted setup.
-- Le transazioni **Transparent** restano pubblicamente osservabili e non offrono le stesse proprietà di privacy.
+- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (argomenti di conoscenza succinti e non interattivi a conoscenza zero)
+- Consentono a una parte di **dimostrare di sapere qualcosa** senza rivelare l'informazione stessa
+- Zcash utilizza le ZK-SNARKs per dimostrare che una transazione è valida (importi corretti, input non spesi) **senza rivelare mittente, destinatario o importo**
+- "Succinct" (succinto) significa che la dimostrazione è minuscola e veloce da verificare anche per affermazioni complesse
+- Il pool **Orchard** utilizza Halo 2, un sistema ZK-SNARK che **non richiede alcun trusted setup**
 
 ## Cosa è una prova?
 
@@ -132,7 +134,7 @@ Una configurazione compromessa in questo metodo significa che un prover disonest
 
 Configurazione fidata ma universale - Deve essere eseguita solo una volta l'installazione fidata ed è in grado di preelaborare in modo deterministico più circuiti.
 
-Configurazione trasparente (nessuna configurazione fidata)- L'algoritmo di preelaborazione non utilizza alcuna casualità segreta.
+Transparent Setup (nessuna configurazione fidata) - L'algoritmo di preelaborazione non utilizza alcuna casualità segreta.
 
 
 **Tipi di costruzioni a prova di SNARK**:
@@ -190,3 +192,12 @@ Ulteriori apprendimenti:
 [Spiegazione semplice dei circuiti aritmetici - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
 [La scalabilità è noiosa, la privacy è morta: ZK-Proofs, per cosa sono utili?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+
+## Pagine correlate
+
+- [Shielded Pools](/using-zcash/shielded-pools) — Come le ZK-SNARKs vengono utilizzate nei value pool di Zcash
+- [Halo](/zcash-tech/halo) — Il sistema ZK-SNARK di Zcash che elimina i trusted setup
+- [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) — Come i rischi quantistici futuri si relazionano con la crittografia di Zcash
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Gli ZSA costruiti sulla tecnologia ZK-SNARK
+- [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
+- [La privacy come principio fondamentale](/privacy/privacy-as-a-core-principle) — Perché la privacy finanziaria è importante
