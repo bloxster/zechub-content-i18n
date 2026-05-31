@@ -22,6 +22,16 @@ If a translated file is missing, the wiki application renders the English articl
 AI-assisted drafts are acceptable starting points, but they are not publication-ready until an Italian-speaking reviewer approves accuracy, tone, links, formatting, and protected terminology.
 The same terminology check runs automatically on pushes and pull requests that modify translated content, its source pages, or the terminology manifest.
 
+## Adding A New Language
+
+The framework is locale-generic — Italian (`it`) is the pilot. To add another locale (for example Spanish, `es`):
+
+1. **UI dictionary:** copy `dictionaries/en.json` to `dictionaries/<locale>.json` and translate the values, leaving the keys and any protected terms unchanged. The app loads it through `getDictionary(locale)`.
+2. **Register the locale:** add `<locale>` to the app's `next-intl` locale configuration so `/<locale>/...` routes resolve. English stays canonical at unprefixed routes; other locales are served under their prefix with automatic English fallback.
+3. **Content:** add translated Markdown under `translations/<locale>/site/...`, mirroring the English `site/` paths. Missing files fall back to English, so coverage can grow incrementally.
+4. **Validation:** the terminology check targets one locale via `translationPrefix` in `translation/protected-terms.json` (currently `translations/it/`). Point it at the new locale (or run it per-locale) and add the locale's pages to `pilotSources`, then run `node scripts/check-protected-terms.mjs`.
+5. **Review:** AI-assisted drafts are starting points only — a native-speaker reviewer must approve accuracy, tone, links, formatting, and protected terminology before merge.
+
 ## Italian Review Notes
 
 - Pay close attention to `e` versus `è`: when it is the verb "is", use the grave-accented `è`.
@@ -31,11 +41,10 @@ The same terminology check runs automatically on pushes and pull requests that m
 
 The canonical validation list is `translation/protected-terms.json`. Terms listed in `preserveVerbatim` must remain unchanged wherever they occur in the English source. Proposed approved localizations must be discussed and added to the glossary before a translated page is merged.
 
-## Pilot Pages
+## Translated Pages
 
-- `Using_Zcash/Wallets.md`
-- `Using_Zcash/Shielded_Pools.md`
-- `Zcash_Community/Arborist_Calls.md`
-- `Zcash_Tech/zk_SNARKS.md`
-
-Additional Italian pages can use the same directory convention after the pilot is reviewed.
+The full, always-current list of translated pages (with per-category coverage)
+is generated at `translations/TRANSLATION_STATUS.md` — run
+`node scripts/gen-translation-status.mjs` to refresh it after adding pages.
+Additional pages use the same `translations/<locale>/site/...` directory
+convention.
