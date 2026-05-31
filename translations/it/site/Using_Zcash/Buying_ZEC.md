@@ -3,7 +3,7 @@
 </a>
 
 
-# Ottenere Zcash
+# Comprare Zcash
 
 ## In breve
 
