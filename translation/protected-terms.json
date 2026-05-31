@@ -96,7 +96,15 @@
     "site/Using_Zcash/Faucets.md",
     "site/Using_Zcash/Metamask_Snap.md",
     "site/Using_Zcash/Transparent_Exchange_Addresses.md",
-    "site/Glossary_and_FAQs/FAQ.md"
+    "site/Glossary_and_FAQs/FAQ.md",
+    "site/Using_Zcash/Mobile_Top_Ups.md",
+    "site/Using_Zcash/Creators_and_Tips.md",
+    "site/Using_Zcash/Encifher_Swaps.md",
+    "site/Using_Zcash/Solswap.md",
+    "site/Using_Zcash/Testnet.md",
+    "site/Using_Zcash/Zcash_Mining_Guide.md",
+    "site/Using_Zcash/zimppy.md",
+    "site/Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md"
   ],
   "translationPrefix": "translations/it/"
 }
