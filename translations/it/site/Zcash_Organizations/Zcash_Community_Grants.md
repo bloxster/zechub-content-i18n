@@ -12,7 +12,7 @@ Il programma Zcash Community Grants finanzia team indipendenti che entrano nell'
 
 Zcash Community Grants è gestito da un comitato, attualmente composto da cinque persone. Questa comunità esamina e approva le domande di sovvenzione provenienti da team di terze parti che vogliono costruire sul protocollo Zcash. Maggiori informazioni nella sezione [Team](https://zcashcommunitygrants.org/committee/)
 
-Tra i progetti recenti approvati dallo ZCG c'è Zcash Shielded Assets (ZSA), guidato dal team QEDIT. Porta la DeFi su ZEC con Zcash grazie a un nuovo protocollo di pagamento che aggiunge ulteriori funzionalità alla mainnet di Zcash.
+Tra i progetti recenti approvati dallo ZCG c'è Zcash Shielded Assets (ZSA), guidato dal team QEDIT. Questo progetto porta la DeFi su Zcash (ZEC) grazie a un nuovo protocollo di pagamento che aggiunge ulteriori funzionalità alla mainnet di Zcash.
 
 Il cortometraggio documentaristico di Zcash Media, con protagonisti zcasher di rilievo come Edward Snowden, Zooko e Deirdre Connolly, ha l'obiettivo di creare video pertinenti, divertenti ed educativi da condividere ampiamente.
 
