@@ -16,7 +16,7 @@ Tra i progetti recenti approvati dallo ZCG c'è Zcash Shielded Assets (ZSA), gui
 
 Il cortometraggio documentaristico di Zcash Media, con protagonisti zcasher di rilievo come Edward Snowden, Zooko e Deirdre Connolly, ha l'obiettivo di creare video pertinenti, divertenti ed educativi da condividere ampiamente.
 
-L'integrazione dei portafogli hardware Ledger per supportare pienamente le transazioni shielded Sapling, che consente di conservare Zcash in modo privato e sicuro. Questo lavoro è stato realizzato dal team Zondax.
+L'integrazione dei portafogli hardware Ledger per supportare pienamente le transazioni shielded Sapling, che consente di conservare Zcash in modo privato e sicuro. Questo lavoro è stato realizzato dal team di Zondax.
 
 Un sistema SDK di pagamento shielded con un solo clic e point-of-sale per i negozi fisici, sviluppato da ZGo.
 
