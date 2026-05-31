@@ -76,7 +76,27 @@
     "site/Using_Zcash/Blockchain_Explorers.md",
     "site/Zcash_Community/Zcash_Governance.md",
     "site/Zcash_Community/Community_Links.md",
-    "site/Zcash_Tech/Full_Nodes.md"
+    "site/Zcash_Tech/Full_Nodes.md",
+    "site/Start_Here/Developer_Resources.md",
+    "site/Start_Here/Development_Fund.md",
+    "site/Start_Here/Using_This_Wiki.md",
+    "site/Zcash_Tech/Crosslink_Protocol.md",
+    "site/Zcash_Tech/Lightwallet_Nodes.md",
+    "site/Zcash_Tech/Zaino.md",
+    "site/Zcash_Tech/Zebra_Full_Node.md",
+    "site/Zcash_Tech/Zcash_Wallet_Syncing.md",
+    "site/Zcash_Tech/Pepper_Sync.md",
+    "site/Zcash_Community/ZCAP.md",
+    "site/Zcash_Community/Zcash_Global_Ambassadors.md",
+    "site/Zcash_Community/Zcash_Media.md",
+    "site/Zcash_Community/Zcash_Podcasts.md",
+    "site/Zcash_Community/Zcash_Ecosystem_Security.md",
+    "site/Using_Zcash/Recovering_Funds.md",
+    "site/Using_Zcash/Payment_Request_URIs.md",
+    "site/Using_Zcash/Faucets.md",
+    "site/Using_Zcash/Metamask_Snap.md",
+    "site/Using_Zcash/Transparent_Exchange_Addresses.md",
+    "site/Glossary_and_FAQs/FAQ.md"
   ],
   "translationPrefix": "translations/it/"
 }
