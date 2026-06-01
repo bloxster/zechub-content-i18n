@@ -1,6 +1,6 @@
 # Ricarica mobile con Zcash
 
-In questa guida ti spieghiamo come acquistare tempo libero con ZEC.
+In questa guida imparerai come acquistare credito telefonico con ZEC.
 
 ## Segui questi passaggi:
 
@@ -33,7 +33,7 @@ Una volta inviati i fondi, la tua richiesta verrà elaborata entro pochi minuti.
 ![Fase 6 - Elaborazione screen](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
 
 ### 7. Conferma
-Ehi... La mia linea è stata accreditata! Puoi anche confermare la tua e-mail durante il processo di pagamento, in modo da ricevere una notifica via e-mail una volta completata la transazione.
+Il tuo numero di telefono è stato ricaricato. Puoi anche confermare la tua e-mail durante il processo di pagamento, in modo da ricevere una notifica via e-mail una volta completata la transazione.
 
 ![Fase 7 - Successo top-up](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
 
@@ -41,7 +41,7 @@ Ehi... La mia linea è stata accreditata! Puoi anche confermare la tua e-mail du
 
 ![Ulteriori informazioni su screenshot](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
 
-### Altri luoghi dove spendere lo ZEC
+### Altri luoghi dove spendere ZEC
 
 Di recente, Zcash ha visto diverse nuove aree di applicazione, che lo rendono ancora più pratico per l'uso quotidiano. Molti negozi e commercianti online accettano ZEC come metodo di pagamento per beni e servizi, soprattutto quelli che privilegiano le transazioni rispettose della privacy.  
 

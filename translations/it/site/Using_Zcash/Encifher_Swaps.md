@@ -33,7 +33,7 @@ Visita il sito [encrypt.trade](https://app.encifher.io/zec) utilizzando **Chrome
 
 ---
 
-### Passo 2: Avvolgere i tuoi token
+### Passo 2: Wrappa i tuoi token
 Vai alla sezione **Involucro**. Scegli **SOL** o **USDC**, inserisci l'importo e conferma. L'applicazione blocca le tue risorse ed emette **versioni criptate (eSOL o eUSDC)**. Per aumentare la privacy, incarta una quantità leggermente superiore a quella che intendi scambiare: questo impedisce la tracciabilità uno a uno.  
 
 
@@ -80,7 +80,7 @@ Il motore **NEAR Intents** gestisce automaticamente il routing cross-chain, cons
 
 ---
 
-### Fase 5: Shielded e privacy
+### Fase 5: Shielda e mantieni la tua privacy
 Una volta ricevuto, usa l'opzione **Shield** di Zashi per spostare il tuo ZEC in un pool schermato per ottenere la massima privacy. Verifica sempre i link, evita di riutilizzare gli indirizzi e testa prima piccole quantità.  
 
 ---

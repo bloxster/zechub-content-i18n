@@ -1,4 +1,4 @@
-# Strumenti Zcash per i creatori: Piattaforme di ribaltamento e profili
+# Strumenti Zcash per i creatori: piattaforme per mance e profili
 
 > **Una guida completa agli strumenti di tipping e di profilo a tutela della privacy costruiti su Zcash per i creatori di contenuti, i cypherpunk e la comunità attenta alla privacy.**
 

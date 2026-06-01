@@ -1,6 +1,6 @@
 # Zcash Testnet
 
-## Cos'è lo Zcash Testnet?
+## Cos'è la Zcash Testnet?
 
 **Zcash Testnet** è una blockchain parallela alla vera rete principale di Zcash (Mainnet) che replica l'esatto protocollo, le regole e la logica delle transazioni, ma con due differenze fondamentali:
 
@@ -21,7 +21,7 @@ Testnet è fondamentale per lo sviluppo della blockchain perché **le blockchain
 Gli sviluppatori che creano portafogli, exchange, software di mining o strumenti per la privacy possono testarli in tutta sicurezza su Testnet. Le funzionalità includono:
 
 - Invio e ricezione di transazioni
-- Estrazione di nuovi blocchi con monete TAZ a valore zero
+- Mining di nuovi blocchi con monete TAZ a valore zero
 - Creazione di interfacce utente e API
 - Testare le caratteristiche di privacy delle transazioni (Transparent vs Shielded)
 
@@ -52,7 +52,7 @@ Gli sviluppatori di nodi possono:
 #### 4. Apprendimento e formazione
 
 I principianti possono imparare le funzioni di Zcash come il mining, la creazione di transazioni Shielded e l'uso degli Unified Address.  
-I tutorial e la documentazione della comunità forniscono l'accesso a **Testnet faucets, explorers e guide**.
+I tutorial e la documentazione della comunità forniscono l'accesso a **Testnet faucet, explorer e guide**.
 
 
 ## Casi d'uso reali di Testnet
@@ -60,8 +60,8 @@ I tutorial e la documentazione della comunità forniscono l'accesso a **Testnet 
 ### 1. Test degli sviluppatori (portafoglio/app)
 
 - Connettersi a Zcash Testnet
-- Richiedi TAZ da un rubinetto
-- Invia transazioni Shielded
+- Richiedi TAZ da un faucet
+- Inviare transazioni Shielded
 - Verifica la privacy e la stabilità dell'interfaccia utente
 
 Anche in caso di errori non si perde alcun ZEC reale.
@@ -70,16 +70,16 @@ Anche in caso di errori non si perde alcun ZEC reale.
 
 - Esegui un nodo Testnet
 - Utilizza gli endpoint JSON-RPC di Zebrad per elaborare le transazioni
-- Testare la logica di deposito/prelievo automatizzata
+- Testare la logica di deposito/prelievo automatizzato
 
 Garantisce la sicurezza del codice di produzione e previene le perdite finanziarie.
 
-### 3. Prove di configurazione mineraria
+### 3. Prove di configurazione del mining
 
-- Utilizzare i modelli di estrazione
+- Utilizzo di modelli di mining
 - Prova la convalida dei blocchi
-- Osserva le ricompense dell'estrazione (solo TAZ)
-- Ottimizzare le prestazioni di estrazione
+- Osserva i premi del mining (solo TAZ)
+- Ottimizzare le prestazioni del mining
 
 Previene i tempi di inattività o la perdita di guadagni quando si passa a Mainnet.
 
@@ -95,8 +95,8 @@ Gli utenti avanzati possono anche eseguire **testnet personalizzate o ambienti r
 |-----------------------|-----------------|--------------------------|
 | Valore delle monete | ZEC reale | TAZ (nessun valore monetario) |
 | Rischio | Rischio finanziario | Sicuro per i test |
-| Aggiornamenti del protocollo | Produzione | Attivazione precoce |
-| Ricompense minerarie | Emissione reale | Ricompensa solo per i test |
+| Aggiornamenti del protocollo | Produzione | Attivazione anticipata |
+| Ricompense per il mining | Emissione reale | Solo ricompensa per i test |
 | Utilità di rete | Transazioni in tempo reale | Test e sviluppo |
 
 ## Idee sbagliate comuni
@@ -113,7 +113,7 @@ Gli utenti avanzati possono anche eseguire **testnet personalizzate o ambienti r
 
 - Non è denaro reale; non può essere scambiato con ZEC o moneta fiat
 - Utilizzata per i test, lo sviluppo e l'apprendimento
-- Segue tutte le regole di Zcash: può essere inviato, minato e utilizzato in indirizzi Shielded
+- Segue tutte le regole di Zcash: può essere inviata, minata e utilizzata in indirizzi Shielded
 
 **Esempio:**
 Uno sviluppatore può inviare 100 TAZ da un indirizzo Testnet a un altro per testare una funzione del portafoglio senza rischiare ZEC reali.  
@@ -121,16 +121,16 @@ Uno sviluppatore può inviare 100 TAZ da un indirizzo Testnet a un altro per tes
 Considera le TAZ come **"denaro di gioco" per la Zcash Testnet**.
 
 
-## Cosa sono i rubinetti?
+## Cosa sono i faucet?
 
-Un **rubinetto** è un servizio che offre monete TAZ gratuite per i test:
+Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratuite per i test:
 
 - Di solito siti web o API
 - Gli utenti forniscono un indirizzo Testnet; il faucet invia una piccola quantità di TAZ
-- Evita la necessità di estrarre TAZ manualmente
+- Evita la necessità di mining manuale di TAZ
 
 **Esempio:**
-1. Visita un faucet Testnet (ad esempio, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)])
+1. Visita un faucet di Testnet (ad esempio, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)])
 2. Inserisci il tuo indirizzo Testnet
 3. Richiedi TAZ
 4. Ricevi immediatamente le TAZ per iniziare i test

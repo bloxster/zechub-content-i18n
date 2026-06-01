@@ -40,6 +40,14 @@
     "Trust",
     "Safepal"
   ],
+  "glossaryOnly": [
+    "token",
+    "chain",
+    "cross-chain",
+    "faucet",
+    "mining",
+    "miner"
+  ],
   "pilotSources": [
     "site/Using_Zcash/Wallets.md",
     "site/Using_Zcash/Shielded_Pools.md",
