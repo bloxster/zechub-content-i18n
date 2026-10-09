@@ -1,2 +1,0 @@
-[build]
-rustflags = ["--allow", "dead_code"]
